@@ -1,0 +1,209 @@
+/* p1.html first card */
+body {
+    background-color: rgb(117, 209, 233);
+    margin-left: 33%;
+    margin-right: 33%;
+}
+.box {
+
+    padding: 20px;
+    margin: 120px;
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    background-color: white;
+}
+.image {
+    background-color: rgb(31, 216, 56);
+    border-radius: 0px 0px 100px 0px;
+    height: 200px;
+}
+.ImgClass {
+    display: block;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+.content {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: larger;
+}
+.btn{
+    background-color: rgb(31, 216, 56);
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+}
+.image1 {
+    background-color: rgb(141, 59, 217);
+    border-radius: 3px 3px 85px 3px;
+    height: 200px;
+}
+.btn1 {
+    background-color: rgb(141, 59, 217);
+    border-radius: 15px;
+    height:30px;
+    width: 100px;
+    color: white;
+    font-weight: bolder;
+}
+/* p2.html */
+.container{
+    background-color: white;
+    height: 330px;
+    width: 170px;
+    border: 1px solid darkblue;
+    margin: 120px;
+    border-radius: 5px;
+}
+.container>div:nth-child(1){
+    background-color: darkblue;
+    height: 100px;
+    border-radius: 0px 0px 85px 85px;
+    padding-top: 25px;
+    text-align:center;
+    color: white;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.container>div:nth-child(2){
+    text-align: center;
+    padding: 10px;
+}
+button{
+    background-color: darkblue;
+    border-radius: 15px;
+    color: white;
+    font-weight: bolder;
+    height: fit-content;
+}
+.next{
+    border: 1px solid red;
+}
+.next>div:nth-child(1){
+    background-color: red;
+}
+.next>div:nth-child(2)>button{
+    background-color: red;
+}
+/* p3.html */
+.person{
+    padding: 20px;
+    margin: 120px;
+    height: 690px;
+    width: 500px;
+    border: 2px solid lightseagreen;
+    border-radius: 15px;
+    text-align: center;
+    background-color: white;
+    
+}
+.person>div:nth-child(1){
+    border: 1px solid lightseagreen;
+    background-color: lightseagreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    height: 395px;
+    margin-top: -20%;
+    color: aliceblue;
+    padding: 20px;
+}
+.user1{
+    padding-top: 40px;
+    width: 150px;
+    height: 200px;
+}
+.person>div:nth-child(2){
+    padding-top: 40px;
+}
+.justify{
+    text-align: justify;
+}
+nav{
+    background-color: lightseagreen;
+    margin-top: 60px;
+}
+nav>ul{
+    margin: 0%;
+    padding: 0%;
+    list-style:inside;
+    float:inline-start;
+}
+nav>ul>li{
+    display:inline-block;
+    padding: 25px;
+}
+table{
+    font-size: x-large;
+    color: rgb(2, 43, 41);
+    font-weight: bolder;
+}
+/* p4.html */
+.UserName{
+    margin: 120px;
+    border: 1px solid rgb(214, 214, 220);
+    padding: 0%;
+    width: 500px;
+    height: 665px;
+    text-align: center;
+    border-radius: 25px;
+}
+.UserName>div:nth-child(1){
+    padding: 0%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+    background-color: navy;
+    height: 460px; 
+    width: 500px;
+    margin-top: 0%;
+    color: white;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.UserName>div:nth-child(2){
+    padding: 0%;
+    background-color: navy;
+    width: 500px;
+    margin:0%;
+    height: 100px;
+    border-radius: 25px;
+    padding-bottom: 15px;
+}
+.UserName>div:nth-child(3){
+    padding-top: 20px;
+    background-color: rgb(246, 21, 137);
+    margin: 0%;
+    height:100px ;
+    width: 500px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: white;
+    text-align: center;
+}
+.navbar{
+    background-color:navy;
+    margin: 0%;
+}
+.navbar>ul{
+    margin: 0%;
+    padding: 0%;
+    list-style:inside;
+    float:inline-start;
+}
+.navbar>ul>li{
+    display:inline-block;
+    padding: 25px;
+}
+.myImg{
+    margin-top: -120px;
+    height: 250px;
+    width: 300px;
+}
